@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 
+/* 
+woff2 -> formato -> woff2 (Poco Compatible)
+woff -> formato -> woff (Compatible)
+ttf -> formato -> truetype (Muy compatible)
+otf -> formato -> opentype (Muy compatible)
+eot -> formato -> embedded-opentype (Compatible)
+*/
+
 @font-face {
     font-family: "Playfull Rocket";
     font-style: normal;
@@ -10,8 +18,18 @@
 }
 
 .tipo-seguras {
+    font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5; /* 1.5 veces el tamaño de la fuente */
+    letter-spacing: 5px; /* espaciado entre letra */
+    word-spacing: 10px; /* espaciado entre palabras */
+    /* text-align: center; */ /* alineación de los texto */
+    text-wrap: balance; /* wrap (por defecto) | nowarap | balance | pretty */ /* balance, útil en títulos */ /* pretty -> el ajuste, es más fino que la wrap   */
 }
+
+/* ctrl -> de 100 en 100 */
+/* alt -> de .1 en .1 */
+/* Shift -> de 10 en 10 */
 
 .tipo-web {
     font-family: "Karla", sans-serif;
