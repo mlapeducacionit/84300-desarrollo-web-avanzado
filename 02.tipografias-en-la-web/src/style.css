@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+@font-face {
+    font-family: "Playfull Rocket";
+    font-style: normal;
+    font-weight: normal;
+    src:
+        local("Playfull Rocket"),
+        url('/fonts/playfull-rocket.ttf') format('truetype');
+}
+
+.tipo-seguras {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tipo-web {
+    font-family: "Karla", sans-serif;
+}
+
+.tipo-propia {
+    font-family: "Playfull Rocket", sans-serif;
+}
+
